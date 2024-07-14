@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  margin: 0px;
+  font-family: 'Anton SC', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+nav {
+  position: absolute;
+  right: 0px;
+  font-size: x-small;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+div {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  padding: 1rem;
+}
